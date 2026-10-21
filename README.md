@@ -43,14 +43,4 @@ Set a repository-specific identity with `git config user.name` and `git config u
 
 The feature branch and main branch contained conflicting edits; Git reported a content conflict, which was resolved and committed. The final history contained both lines of work and a merge commit.
 
-## Viva questions
-1. What problem does this tool or workflow solve?
-2. What is one limitation or failure mode?
-3. How can the result be reproduced?
 
-
-## Concept summary
-Commits capture checkpoints, branches isolate work, and merges integrate changes. Conflicts are resolved by editing the final file and committing it.
-
-## Outcome summary
-Git branch/merge/conflict behaviour is demonstrated locally. Remote collaboration requires a GitHub account and authenticated remote.
